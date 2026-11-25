@@ -1,0 +1,19 @@
+{
+  "name": "doc-temp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "个人知识库与技术文档站点",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.21",
+    "vitepress-sidebar": "^1.41.0"
+  }
+}
